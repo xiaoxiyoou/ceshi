@@ -1,0 +1,230 @@
+date/time         : 2012-01-10 14:22
+computer name     : CHRIS
+user name         : Administrator
+admin/terminal    : TRUE / FALSE
+operating system  : Windows XP Service Pack 3 build 2600
+system language   : Chinese
+system up time    : 6 hours 42 minutes 
+program up time   : 10 seconds 
+processors        : 2x Pentium(R) Dual-Core  CPU      E5300  @ 2.60GHz
+physical memory   : 78/2047 MB (空闲/总计)
+display mode      : 1, 1440x900, 32 bit
+allocated memory  : 27.58 MB
+executable        : flashfxp.exe
+exec. date/time   : 2009-06-05 09:48
+version           : 3.7.9.1348
+executable size   : 4143716
+executable hash   : 05CB0DEA3758E10A652421B6CE172E37
+madExcept version : 2.7k
+exception class   : EMenuError
+exception message : 系统资源不足.
+
+main thread ($468):
+00483772 flashfxp.exe Menus      826   +7 TMenuItem.GetHandle
+004832bc flashfxp.exe Menus      705   +4 TMenuItem.AppendTo
+00483502 flashfxp.exe Menus      749   +1 AddIn
+00482d5f flashfxp.exe Menus      508  +11 Iterate
+00482e28 flashfxp.exe Menus      534  +18 IterateMenus
+00483542 flashfxp.exe Menus      755   +2 TMenuItem.PopulateMenu
+0048364e flashfxp.exe Menus      793  +11 TMenuItem.RebuildHandle
+00484674 flashfxp.exe Menus     1366   +6 TMenuItem.Delete
+0048476b flashfxp.exe Menus     1403   +3 TMenuItem.Remove
+004831e4 flashfxp.exe Menus      662   +3 TMenuItem.Destroy
+0040333c flashfxp.exe System              TObject.Free
+006c47d1 flashfxp.exe FrmMain1 11604   +7 TFrmMain.BuildMenuList
+006e3c8e flashfxp.exe FrmMain1 22219  +40 TFrmMain.PopSitePopup
+00486119 flashfxp.exe Menus     2496   +1 TPopupMenu.DoPopup
+00486208 flashfxp.exe Menus     2566   +8 TPopupMenu.Popup
+004d3f1a flashfxp.exe ComCtrls 16684  +46 TToolBar.CheckMenuDropdown
+004d08a8 flashfxp.exe ComCtrls 14699   +1 TToolButton.CheckMenuDropdown
+004d3331 flashfxp.exe ComCtrls 16277  +11 TToolBar.CNNotify
+004788e9 flashfxp.exe Controls  4233  +37 TControl.WndProc
+0047b11e flashfxp.exe Controls  5698  +42 TWinControl.WndProc
+004d3691 flashfxp.exe ComCtrls 16394  +73 TToolBar.WndProc
+00478718 flashfxp.exe Controls  4158   +5 TControl.Perform
+0047b28f flashfxp.exe Controls  5741   +6 DoControlMsg
+0047b7b5 flashfxp.exe Controls  5922   +1 TWinControl.WMNotify
+004788e9 flashfxp.exe Controls  4233  +37 TControl.WndProc
+0047b11e flashfxp.exe Controls  5698  +42 TWinControl.WndProc
+004d3691 flashfxp.exe ComCtrls 16394  +73 TToolBar.WndProc
+0047ada8 flashfxp.exe Controls  5571   +3 TWinControl.MainWndProc
+00468b00 flashfxp.exe Forms     1484   +8 StdWndProc
+77d2f406 user32.dll                       SendMessageA
+004d3453 flashfxp.exe ComCtrls 16318   +9 SendDropdownMsg
+004d3624 flashfxp.exe ComCtrls 16375  +54 TToolBar.WndProc
+0047ada8 flashfxp.exe Controls  5571   +3 TWinControl.MainWndProc
+00468b00 flashfxp.exe Forms     1484   +8 StdWndProc
+77d196c2 user32.dll                       DispatchMessageA
+0047169f flashfxp.exe Forms     6909  +34 TApplication.ProcessMessage
+004716d6 flashfxp.exe Forms     6947   +1 TApplication.HandleMessage
+004718f6 flashfxp.exe Forms     7036  +20 TApplication.Run
+0070e353 flashfxp.exe FlashFXP   690 +519 initialization
+
+thread $16d0:
+7c92e514 ntdll.dll                      KiFastSystemCallRet
+7c92daa8 ntdll.dll                      NtReplyWaitReceivePortEx
+0044c775 flashfxp.exe madExcept 6753 +6 CallThreadProc
+0044c7b7 flashfxp.exe madExcept 6767 +6 ThreadExceptFrame
+>> created by main thread ($468) at:
+77e5d105 RPCRT4.dll                     
+
+thread $16e0:
+7c92e514 ntdll.dll                      KiFastSystemCallRet
+7c92d218 ntdll.dll                      NtDelayExecution
+7c8023eb kernel32.dll                   SleepEx
+7c802450 kernel32.dll                   Sleep
+0044c775 flashfxp.exe madExcept 6753 +6 CallThreadProc
+0044c7b7 flashfxp.exe madExcept 6767 +6 ThreadExceptFrame
+>> created by main thread ($468) at:
+769e09d3 ole32.dll                      
+
+thread $14c4:
+7c92e514 ntdll.dll                      KiFastSystemCallRet
+7c92daa8 ntdll.dll                      NtReplyWaitReceivePortEx
+0044c775 flashfxp.exe madExcept 6753 +6 CallThreadProc
+0044c7b7 flashfxp.exe madExcept 6767 +6 ThreadExceptFrame
+>> created by thread $16d0 at:
+77e5d105 RPCRT4.dll                     
+
+thread $be8 (TChangeHandlerThread):
+7c92e514 ntdll.dll                              KiFastSystemCallRet
+7c92df48 ntdll.dll                              NtWaitForMultipleObjects
+7c80958a kernel32.dll                           WaitForMultipleObjectsEx
+7c80a110 kernel32.dll                           WaitForMultipleObjects
+00616679 flashfxp.exe UPTShellControls 4131 +11 TChangeHandlerThread.Execute
+0044c842 flashfxp.exe madExcept        6780  +2 HookedTThreadExecute
+0041b04c flashfxp.exe Classes          6930  +1 ThreadProc
+00403fbc flashfxp.exe System                    ThreadWrapper
+0044c775 flashfxp.exe madExcept        6753  +6 CallThreadProc
+0044c7b7 flashfxp.exe madExcept        6767  +6 ThreadExceptFrame
+>> created by main thread ($468) at:
+0061633f flashfxp.exe UPTShellControls 4027  +2 TChangeHandlerThread.Create
+
+组件:
+00400000 flashfxp.exe          3.7.9.1348       F:\tools\FlashFXP
+01030000 safemon.dll           7.0.1.1015       C:\Program Files\360\360safe\safemon
+01fb0000 TortoiseSVN32.dll     1.7.1.22161      D:\Program Files\TortoiseSVN\bin
+02050000 intl3_tsvn32.dll      0.14.6.0         D:\Program Files\TortoiseSVN\bin
+02070000 libsasl32.dll         2.1.24.0         D:\Program Files\TortoiseSVN\bin
+02790000 xpsp2res.dll          5.1.2600.5512    C:\WINDOWS\system32
+03040000 libeay32.dll          0.9.8.9          F:\tools\FlashFXP
+03150000 ssleay32.dll          0.9.8.9          F:\tools\FlashFXP
+05940000 TortoiseStub32.dll    1.7.1.22161      D:\Program Files\TortoiseSVN\bin
+05960000 TortoiseOverlays.dll  1.1.3.21564      C:\Program Files\Common Files\TortoiseOverlays
+070d0000 WMASF.DLL             10.0.0.4060      C:\WINDOWS\system32
+096c0000 Audiodev.dll          5.2.3802.3802    C:\WINDOWS\system32
+10000000 libsvn_tsvn32.dll     1.7.1.7211       D:\Program Files\TortoiseSVN\bin
+15110000 WMVCore.DLL           11.0.5721.5275   C:\WINDOWS\system32
+1f840000 odbcint.dll           3.525.1117.0     C:\WINDOWS\system32
+4ae90000 gdiplus.dll           5.2.6002.22509   C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6002.22509_x-ww_c7dad023
+5a540000 wiashext.dll          5.1.2600.5512    C:\WINDOWS\system32
+5adc0000 UxTheme.dll           6.0.2900.5512    C:\WINDOWS\system32
+5fdd0000 netapi32.dll          5.1.2600.5694    C:\WINDOWS\system32
+62c20000 LPK.DLL               5.1.2600.5512    C:\WINDOWS\system32
+6bd10000 msohevi.dll           12.0.4518.1014   C:\Program Files\Microsoft Office\Office12
+6ee60000 libaprutil_tsvn32.dll 1.3.12.0         D:\Program Files\TortoiseSVN\bin
+6eec0000 libapr_tsvn32.dll     1.4.5.0          D:\Program Files\TortoiseSVN\bin
+719c0000 MSWSOCK.dll           5.1.2600.5625    C:\WINDOWS\system32
+71a10000 WS2HELP.dll           5.1.2600.5512    C:\WINDOWS\system32
+71a20000 WS2_32.dll            5.1.2600.5512    C:\WINDOWS\system32
+71a40000 wsock32.dll           5.1.2600.5512    C:\WINDOWS\system32
+71a90000 MPR.dll               5.1.2600.5512    C:\WINDOWS\system32
+71b70000 SAMLIB.dll            5.1.2600.5512    C:\WINDOWS\System32
+71b90000 ntlanman.dll          5.1.2600.5512    C:\WINDOWS\System32
+71c00000 NETRAP.dll            5.1.2600.5512    C:\WINDOWS\System32
+71c10000 NETUI1.dll            5.1.2600.5512    C:\WINDOWS\System32
+71c50000 NETUI0.dll            5.1.2600.5512    C:\WINDOWS\System32
+72f70000 winspool.drv          5.1.2600.5512    C:\WINDOWS\system32
+73540000 ODBC32.dll            3.525.3012.0     C:\WINDOWS\system32
+73640000 msctfime.ime          5.1.2600.5768    C:\WINDOWS\system32
+73b10000 sti.dll               5.1.2600.5512    C:\WINDOWS\system32
+73ce0000 shgina.dll            6.0.2900.5512    C:\WINDOWS\system32
+73fa0000 USP10.dll             1.420.2600.5969  C:\WINDOWS\system32
+74680000 MSCTF.dll             5.1.2600.5512    C:\WINDOWS\system32
+74a40000 CFGMGR32.dll          5.1.2600.5512    C:\WINDOWS\system32
+758d0000 MSGINA.dll            5.1.2600.5512    C:\WINDOWS\system32
+759d0000 USERENV.dll           5.1.2600.5512    C:\WINDOWS\system32
+75ed0000 drprov.dll            5.1.2600.5512    C:\WINDOWS\System32
+75ee0000 davclnt.dll           5.1.2600.5512    C:\WINDOWS\System32
+75ef0000 browseui.dll          6.0.2900.6168    C:\WINDOWS\system32
+75ff0000 MSVCP60.dll           6.2.3104.0       C:\WINDOWS\system32
+76060000 SETUPAPI.dll          5.1.2600.5512    C:\WINDOWS\system32
+762d0000 WINSTA.dll            5.1.2600.5512    C:\WINDOWS\system32
+76300000 IMM32.DLL             5.1.2600.5512    C:\WINDOWS\system32
+76320000 comdlg32.dll          6.0.2900.5512    C:\WINDOWS\system32
+76570000 CSCDLL.dll            5.1.2600.5512    C:\WINDOWS\System32
+76590000 cscui.dll             5.1.2600.5512    C:\WINDOWS\System32
+765e0000 crypt32.dll           5.131.2600.6154  C:\WINDOWS\system32
+76680000 WININET.dll           6.0.2900.6168    C:\WINDOWS\system32
+76960000 ntshrui.dll           5.1.2600.5512    C:\WINDOWS\system32
+76990000 ole32.dll             5.1.2600.6168    C:\WINDOWS\system32
+76af0000 ATL.DLL               3.5.2284.2       C:\WINDOWS\system32
+76b10000 winmm.dll             5.1.2600.5512    C:\WINDOWS\system32
+76bc0000 PSAPI.DLL             5.1.2600.5512    C:\WINDOWS\system32
+76c00000 WINTRUST.dll          5.131.2600.5922  C:\WINDOWS\system32
+76c60000 IMAGEHLP.dll          5.1.2600.5512    C:\WINDOWS\system32
+76d70000 appHelp.dll           5.1.2600.5512    C:\WINDOWS\system32
+76db0000 MSASN1.dll            5.1.2600.5875    C:\WINDOWS\system32
+76f30000 WLDAP32.dll           5.1.2600.5512    C:\WINDOWS\system32
+76fa0000 CLBCATQ.DLL           2001.12.4414.700 C:\WINDOWS\system32
+77020000 COMRes.dll            2001.12.4414.700 C:\WINDOWS\system32
+770f0000 oleaut32.dll          5.1.2600.6058    C:\WINDOWS\system32
+77180000 comctl32.dll          6.0.2900.6028    C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+77bd0000 version.dll           5.1.2600.5512    C:\WINDOWS\system32
+77be0000 msvcrt.dll            7.0.2600.5512    C:\WINDOWS\system32
+77d10000 user32.dll            5.1.2600.5512    C:\WINDOWS\system32
+77da0000 advapi32.dll          5.1.2600.5755    C:\WINDOWS\system32
+77e50000 RPCRT4.dll            5.1.2600.6022    C:\WINDOWS\system32
+77ef0000 GDI32.dll             5.1.2600.5698    C:\WINDOWS\system32
+77f40000 SHLWAPI.dll           6.0.2900.5912    C:\WINDOWS\system32
+77fc0000 Secur32.dll           5.1.2600.5834    C:\WINDOWS\system32
+78050000 MSVCP100.dll          10.0.40219.325   C:\WINDOWS\system32
+78130000 MSVCR80.dll           8.0.50727.4053   C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_e6967989
+78aa0000 MSVCR100.dll          10.0.40219.325   C:\WINDOWS\system32
+7c800000 kernel32.dll          5.1.2600.5781    C:\WINDOWS\system32
+7c920000 ntdll.dll             5.1.2600.6055    C:\WINDOWS\system32
+7d590000 shell32.dll           6.0.2900.6072    C:\WINDOWS\system32
+
+disassembling:
+[...]
+0048372a       jnz     loc_48377e
+0048372c 822   mov     eax, [ebx+4]
+0048372f       mov     edx, [$48267c]
+00483735       call    -$8028e ($4034ac)      ; System.@IsClass
+0048373a       test    al, al
+0048373c       jz      loc_483748
+0048373e 823   call    -$7bd93 ($4079b0)      ; Windows.CreatePopupMenu
+00483743       mov     [ebx+$28], eax
+00483746       jmp     loc_483750
+00483748 825   call    -$7bda5 ($4079a8)      ; Windows.CreateMenu
+0048374d       mov     [ebx+$28], eax
+00483750 826   cmp     dword ptr [ebx+$28], 0
+00483754       jnz     loc_483777
+00483756       lea     edx, [ebp-4]
+00483759       mov     eax, [$72ace4]
+0048375e       call    -$7d607 ($40615c)      ; System.LoadResString
+00483763       mov     ecx, [ebp-4]
+00483766       mov     dl, 1
+00483768       mov     eax, [$481e1c]
+0048376d       call    -$7560e ($40e164)      ; SysUtils.Exception.Create
+00483772     > call    -$7fceb ($403a8c)      ; System.@RaiseExcept
+00483777 827   mov     eax, ebx
+00483779       call    -$272 ($48350c)        ; Menus.TMenuItem.PopulateMenu
+0048377e 829   mov     ebx, [ebx+$28]
+00483781       xor     eax, eax
+00483783       pop     edx
+00483784       pop     ecx
+00483785       pop     ecx
+00483786       mov     fs:[eax], edx
+00483789       push    $48379e
+0048378e       lea     eax, [ebp-4]
+00483791       call    -$7f77e ($404018)      ; System.@LStrClr
+00483796       ret
+00483797       jmp     -$7fdc8 ($4039d4)      ; System.@HandleFinally
+0048379c       jmp     loc_48378e
+0048379e       mov     eax, ebx
+004837a0 830   pop     ebx
+004837a1       pop     ecx
+004837a2       pop     ebp
+004837a3       ret
+
